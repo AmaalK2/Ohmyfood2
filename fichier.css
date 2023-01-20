@@ -1,0 +1,158 @@
+body 
+{
+font-family: 'Fasthand', cursive;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+}
+  /**header**/
+.header
+{
+	height: 55px;
+}
+
+header img 
+{
+	height: 34px;
+    display: flex;
+    align-items: center;
+    padding-left: 107px;
+    position: fixed;
+    top: 11px;
+}
+
+  /**location**/
+
+.location 
+{
+	background-color: #eaeaea;
+	height: 64px;
+}
+
+.location h2 
+{
+	padding-left: 13px;
+}
+
+.bloc-location
+{
+	display: flex;
+	align-items: center;
+}
+
+.fa-location-dot 
+{
+	padding-left: 105px;
+}
+
+
+/**button section*/
+
+.button-presentation /*section*/
+{
+	height: 423px;
+	background: whitesmoke;
+}
+
+.button-presentation p 
+{
+	font-size: 18px;
+	color: grey;
+}
+
+.button-presentation h1
+{
+	margin-top: 0;
+}
+
+.presentation-button /*texte englobant déplacer*/
+{
+    position: absolute;
+    top: 232px;
+    left: 44px;
+    right: 36px;
+    text-align: center;
+}
+
+.button-presentation button 
+{
+	height: 46px;
+    border-radius: 30px;
+    width: 64%;
+    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+    color: white;
+    border-color: transparent;
+    font-size: 15px;
+}
+
+.filtre h2
+{
+	position: relative;
+    top: 33px;
+    left: 20px;
+}
+
+.filter
+{
+	height: 87px;
+    background: aliceblue;
+    margin: 17px;
+    border-radius: 2rem;
+    box-shadow: rgb(50 50 93 / 0%) 0px 5px 20px 0px, rgb(0 0 0 / 30%) -1px 5px 30px -10px;
+}
+
+.filter a 
+{
+	position: relative;
+    left: 91px;
+    top: 34px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.filter:hover
+{
+ transform: scale(1.02);
+ opacity: 0.9;
+ background-color: #f2eafb;
+}
+
+.space-filter
+{
+	margin: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/**restaurant section*/
+
+.restaurants_section
+{
+ background: #f6f6f6;
+ height: 600px;
+}
+
+.restaurant-main 
+{
+	background-color: white;
+    justify-content: space-between;
+    margin: 10px;
+    height: auto;
+    width: 90%;
+    border-radius: 12%;
+    position: relative;
+    left: 11px;
+}
+
+.restaurant-main img 
+{
+    border-radius: 20px 20px 0px 0px;
+    height: 180px;
+    width: 100%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
