@@ -16,7 +16,7 @@ header img
     display: flex;
     align-items: center;
     padding-left: 107px;
-    position: fixed;
+    position: relative;
     top: 11px;
 }
 
@@ -30,7 +30,9 @@ header img
 
 .location h2 
 {
-	padding-left: 13px;
+	padding-left: 22px;
+    font-weight: 100;
+    font-size: 18px;
 }
 
 .bloc-location
@@ -41,7 +43,9 @@ header img
 
 .fa-location-dot 
 {
-	padding-left: 105px;
+	padding-left: 107px;
+    font-size: 19px;
+
 }
 
 
@@ -87,26 +91,25 @@ header img
 .filtre h2
 {
 	position: relative;
-    top: 33px;
-    left: 20px;
+    top: 16px;
+    padding-left: 20px;
 }
 
 .filter
 {
+	display: flex;
 	height: 87px;
-    background: aliceblue;
     margin: 17px;
     border-radius: 2rem;
-    box-shadow: rgb(50 50 93 / 0%) 0px 5px 20px 0px, rgb(0 0 0 / 30%) -1px 5px 30px -10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
 }
 
-.filter a 
-{
-	position: relative;
-    left: 91px;
+.filter a {
+    position: relative;
+    left: 34px;
     top: 34px;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .filter:hover
@@ -114,6 +117,31 @@ header img
  transform: scale(1.02);
  opacity: 0.9;
  background-color: #f2eafb;
+}
+
+
+.fa-mobile-screen, .fa-list-ul, .fa-store;hover
+ {
+ 	color: #9356DC;
+ }
+
+.iconenumber
+{
+display: flex;
+    position: relative;
+    top: 30px;
+    right: 10px;
+}
+
+ .iconenumber span
+ {
+   background-color: #9356DC;
+    padding: 5px;
+    border-radius: 50%;
+    width: 19px;
+    height: 19px;
+    text-align: center;
+    color: white;
 }
 
 .space-filter
@@ -124,13 +152,32 @@ header img
     justify-content: space-between;
 }
 
+.fa-mobile-screen, .fa-list-ul, .fa-store
+{
+	position: relative;
+	top: 35px;
+	left: 17px;
+}
+
+
 /**restaurant section*/
 
 .restaurants_section
 {
  background: #f6f6f6;
- height: 600px;
+ height: auto;
+ margin-top: 78px;
+ padding-bottom: 52px;
 }
+
+.restaurants_section h2
+{
+	padding-left: 21px;
+    padding-top: 65px;
+    position: relative;
+}
+
+
 
 .restaurant-main 
 {
@@ -139,10 +186,18 @@ header img
     margin: 10px;
     height: auto;
     width: 90%;
-    border-radius: 12%;
+    border-radius: 15px;
     position: relative;
     left: 11px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
+
+.restaurant-main a 
+{
+	text-decoration: none;
+	color: black;
+}
+
 
 .restaurant-main img 
 {
@@ -150,9 +205,92 @@ header img
     height: 180px;
     width: 100%;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
 }
 
+.text-restaurants-section
+{
+	position: relative;
+	left: 17px;
+}
 
+.text-restaurants-section p 
+{
+	margin-top: 4px;
+	padding-bottom: 17px;
+}
 
+.text-restaurants-section h3
+{
+	margin-bottom: 4px;
+}
 
+.h3-main-new
+{
+	margin-top: 0;
+}
+
+  .new1 
+  {
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+    position: relative;
+    bottom: 155px;
+    left: 281px;
+    z-index: 2;
+    display: inline;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.new2 {
+    background-color: #99e2d0;
+    color: #1b6150;
+    padding: 0.5rem;
+    border-radius: 0.125rem;
+    position: relative;
+    bottom: 155px;
+    left: 281px;
+    z-index: 2;
+    display: inline;
+    width: 5rem;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+    /*footer*/
+footer
+{
+    background-color: #353535;
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 18px;
+}
+
+footer .logo 
+{
+	  font-family: 'Shrikhand';
+	  font-weight: 600;
+
+}
+
+footer p 
+{
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+.container_footer
+{
+	padding-left: 20px;
+}
+
+.container_footer a 
+{
+	text-decoration: none;
+	color: white;
+}
 
