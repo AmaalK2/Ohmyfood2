@@ -12,7 +12,7 @@ margin: 0;
 
 header img 
 {
-	height: 34px;
+	height: 30px;
     display: flex;
     align-items: center;
     padding-left: 107px;
@@ -119,11 +119,12 @@ header img
  background-color: #f2eafb;
 }
 
+.filter:hover i
+{
+ color: #9356DC;
+}
 
-.fa-mobile-screen, .fa-list-ul, .fa-store;hover
- {
- 	color: #9356DC;
- }
+
 
 .iconenumber
 {
@@ -272,7 +273,7 @@ footer
 
 footer .logo 
 {
-	  font-family: 'Shrikhand';
+	  font-family: 'Fasthand', cursive;
 	  font-weight: 600;
 
 }
@@ -294,3 +295,66 @@ footer p
 	color: white;
 }
 
+/*mobile*/
+
+/*header*/
+
+.header-mobile
+{
+	display: flex;
+	align-items: center;
+	height: 55px;
+}
+
+.header-mobile img 
+{
+	height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 72px;
+    position: relative;
+    top: 1px;
+}
+
+.image_mobile
+{
+	width: 100%;
+}
+
+.fa-arrow-left
+{
+	font-size: 20px;
+    padding-left: 14px;
+}
+
+/*menu*/
+
+.menu 
+{
+	border: 2px solid black;
+    border-radius: 37px 37px 10px 10px;
+    height: 535px;
+    position: relative;
+    bottom: 50px;
+    background-color: white;
+}
+
+.menu h2 
+{
+	text-align: center;
+}
+
+.menu-choice
+{
+	border: 2px solid blue;
+	margin-left: 6px;
+    margin-right: 6px;
+    padding: 10px;
+    border-radius: 15.0431px;
+}
+
+.menu-choice p 
+{
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
