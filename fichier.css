@@ -1,13 +1,19 @@
 body 
 {
-font-family: 'Fasthand', cursive;
 font-family: 'Roboto', sans-serif;
 margin: 0;
 }
+
   /**header**/
+}
 .header
 {
-	height: 55px;
+	height: 65px;
+}
+
+.header 
+{
+	height: 47px;
 }
 
 header img 
@@ -25,7 +31,7 @@ header img
 .location 
 {
 	background-color: #eaeaea;
-	height: 64px;
+	height: 52px;
 }
 
 .location h2 
@@ -271,9 +277,19 @@ footer
     padding-bottom: 18px;
 }
 
+.fa-utensils
+{
+	padding-right: 11px;
+}
+
+.fa-handshake-angle
+{
+	padding-right: 5px;
+}
+
 footer .logo 
 {
-	  font-family: 'Fasthand', cursive;
+	  font-family: 'Shrikhand', cursive;
 	  font-weight: 600;
 
 }
@@ -316,9 +332,24 @@ footer p
     top: 1px;
 }
 
+.height-mobile-image-main
+{
+    height: 242px;
+    object-fit: cover;
+}
+
+
 .image_mobile
 {
 	width: 100%;
+	object-fit: cover;
+}
+
+.image_mobile_délice
+{
+	width: 100%;
+    object-fit: cover;
+    height: 240px;
 }
 
 .fa-arrow-left
@@ -327,15 +358,30 @@ footer p
     padding-left: 14px;
 }
 /*button*/ 
-.presentation-button {
-    position: relative;
-    top: 232px;
-    left: 44px;
-    right: 36px;
-    text-align: center;
+
+.button-presentation-mobile button {
+    height: 46px;
+    border-radius: 30px;
+    width: 41%;
+    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+    color: white;
+    border-color: transparent;
+    font-size: 15px;
 }
 
-/*menu*/
+.presentation-button-mobile
+{
+
+    position: relative;
+    right: 11px;
+    bottom: 8px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+
+
+/*menu mobile*/
 
 .menu 
 {    border-radius: 37px 37px 10px 10px;
@@ -345,22 +391,37 @@ footer p
     background-color: white;
 }
 
-.menu h2 
+.bold 
 {
-	text-align: center;
-	margin-bottom: 46px;
+	font-weight: 500;
+}
+
+.bold2
+{
+	font-weight: 300;
+}
+
+.menu h2 {
+    text-align: center;
+    margin-bottom: 46px;
+    position: relative;
+    top: 9px;
+    right: 54px;
+    font-size: 28px;
+    font-family: 'Shrikhand', cursive;
 }
 
 .menu h3 
 {
 	position: relative;
     left: 16px;
-    font-weight: lighter;
+    font-weight: 200;
     text-transform: uppercase;
     font-size: 15px;
     width: 37px;
     border-bottom: 3px solid #99E2D0;   
     padding-bottom: 6px;
+    margin-top: 55px;
 
 }
 
@@ -426,3 +487,12 @@ footer p
   {
   	display: flex;
   }
+
+  .footer_description-mobile 
+  {
+  	background-color: #353535;
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 18px;
+    margin-top: 62px;
+}
