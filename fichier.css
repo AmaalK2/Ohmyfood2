@@ -599,11 +599,13 @@ footer p {
     position: relative;
     background-color: #f2f2f2;
     padding: 3px;
-    margin-left: 29px;
-    margin-right: 29px;
+    margin-left: 62px;
+    margin-right: 72px;
     top: 43px;
     padding-bottom: 135px;
     margin-top: -84px;
+    padding-right: 34px;
+    padding-left: 34px;
 }
 
 .image_mobile
