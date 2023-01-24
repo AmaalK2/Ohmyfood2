@@ -2,6 +2,7 @@ body
 {
 font-family: 'Roboto', sans-serif;
 margin: 0;
+max-width: 1440px;
 }
 
   /**header**/
@@ -327,7 +328,7 @@ footer p
 	height: 30px;
     display: flex;
     align-items: center;
-    padding-left: 72px;
+    padding-left: 92px;
     position: relative;
     top: 1px;
 }
@@ -495,4 +496,139 @@ footer p
     padding-top: 34px;
     padding-bottom: 18px;
     margin-top: 62px;
+}
+
+
+/*tablette*/
+
+@media (min-width: 768px) and (max-width: 1024px)
+{
+header img 
+{
+	padding-left: 289px;
+}
+
+.fa-location-dot 
+{
+    padding-left: 294px;
+}
+
+.button-presentation button 
+{
+    width: 30%;
+}
+
+.filter {
+    height: 87px;
+    margin: 17px;
+    border-radius: 2rem;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 15%);
+    width: 39%;
+    display: flex;
+}
+
+.filter a {
+    position: relative;
+    left: 12px;
+    top: 34px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.space-filter 
+{
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fa-mobile-screen, .fa-list-ul, .fa-store {
+    position: relative;
+    top: 35px;
+    left: 3px;
+}
+
+.tab-main-restaurants 
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.restaurant-main {
+    background-color: white;
+    justify-content: space-between;
+    margin: 17px;
+    height: auto;
+    width: 44%;
+    border-radius: 15px;
+    position: relative;
+    left: 11px;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
+}
+
+.new1 {
+    
+    left: 247px;
+}
+.new2
+{
+	position: relative;
+	left: 249px;
+}
+
+.text-restaurants-section p {
+    margin-top: 4px;
+    padding-bottom: 0px;
+}
+
+footer p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 11px;
+}
+.container_footer {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu {
+    border-radius: 37px 37px 10px 10px;
+    height: auto;
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 3px;
+    margin-left: 29px;
+    margin-right: 29px;
+    top: 43px;
+    padding-bottom: 135px;
+    margin-top: -84px;
+}
+
+.image_mobile
+{
+	height: 267px;
+}
+
+.presentation-button-mobile {
+    position: relative;
+    right: 11px;
+    bottom: 50px;
+    text-align: center;
+    margin-bottom: 0px; 
+}
+.presentation-button-mobile button 
+{
+    width: 21%;
+}
+}
+
+@media (min-width: 1025px)
+{
+		header img 
+{
+	padding-left: 289px;
+}
+	
 }
