@@ -435,8 +435,7 @@ footer p
 {
 	border: 1px solid #f2f2f2;
     box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
-	margin-left: 6px;
-    margin-right: 6px;
+	width: 94%;
     margin-bottom: 28px;
     padding: 10px;
     border-radius: 15.0431px;
@@ -498,6 +497,45 @@ footer p
     margin-top: 62px;
 }
 
+/*animation*/
+.hearts
+{
+	display: flex;
+	padding-left: 403px;
+}
+
+
+
+.heart2
+{
+	position: relative;
+	left: 32px;
+    background-color: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+}
+
+
+ .heart1:hover
+    {
+    opacity: 1;
+   }
+
+    .heart2:hover
+   {
+     opacity: 0;
+   }
+
+   .hearts i 
+   {
+   	 transition: all 0.5s;
+   }
+
+   
+
+   .hearts i:hover
+   {
+   	color: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+   }
+
 
 /*tablette*/
 
@@ -506,6 +544,15 @@ footer p
 header img 
 {
 	padding-left: 289px;
+}
+
+.header-mobile img {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 35%;
+    position: relative;
+    top: 1px;
 }
 
 .fa-location-dot 
@@ -555,6 +602,15 @@ header img
 	flex-direction: row;
 }
 
+.menu-choice {
+    border: 1px solid #f2f2f2;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
+    width: 95%;
+    margin-bottom: 28px;
+    padding: 10px;
+    border-radius: 15.0431px;
+    }
+
 .restaurant-main {
     background-color: white;
     justify-content: space-between;
@@ -599,13 +655,14 @@ footer p {
     position: relative;
     background-color: #f2f2f2;
     padding: 3px;
-    margin-left: 62px;
-    margin-right: 72px;
+    margin-left: 10%;
+    margin-right: 10%;
     top: 43px;
-    padding-bottom: 135px;
-    margin-top: -84px;
-    padding-right: 34px;
-    padding-left: 34px;
+    padding-bottom: 103px;
+    margin-top: -90px;
+    padding-right: 145px;
+    padding-left: 125px;
+
 }
 
 .image_mobile
@@ -624,13 +681,146 @@ footer p {
 {
     width: 21%;
 }
+
+.container_footer {
+    padding-left: 97px;
+    display: flex;
+    flex-direction: row;
+}
 }
 
-@media (min-width: 1025px)
+@media (min-width: 1025px) and (max-width: 3500px)
 {
+
+.header-mobile img 
+{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 38%;
+    position: relative;
+    top: 1px;
+}
 		header img 
 {
-	padding-left: 289px;
+	padding-left: 418px;
+}
+
+.fa-location-dot 
+{
+    padding-left: 421px;
+}
+
+.button-presentation button {
+    height: 48px;
+    border-radius: 30px;
+    width: 21%;
+    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+    color: white;
+    border-color: transparent;
+    font-size: 15px;
+}
+
+.filter a {
+    position: relative;
+    left: 28px;
+    top: 34px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.filter {
+    height: 87px;
+    margin: 17px;
+    border-radius: 2rem;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 15%);
+    width: 28%;
+    display: flex;
+}
+
+.desk-main-restaurants
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.tab-main-restaurants
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.restaurant-main
+{
+	height: 220px;
+	width: 232px;
+	margin: 10px;
+}
+
+.restaurant-main img 
+{
+	height: 132px;
+	width: 100%;
+}
+
+.menu {
+    border-radius: 37px 37px 10px 10px;
+    height: auto;
+    position: relative;
+    background-color: #f2f2f2;
+    padding: 3px;
+    margin-left: 12%;
+    margin-right: 12%;
+    top: 43px;
+    padding-bottom: 103px;
+    margin-top: -90px;
+    padding-right: 145px;
+    padding-left: 125px;
+}
+
+.menu-choice
+{
+	border: 1px solid #f2f2f2;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
+	width: 94%;
+    margin-bottom: 28px;
+    padding: 10px;
+    border-radius: 15.0431px;
+}
+
+.image_mobile {
+    height: 267px;
+}
+
+.button-presentation-mobile button {
+    height: 46px;
+    border-radius: 30px;
+    width: 15%;
+    background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
+    color: white;
+    border-color: transparent;
+    font-size: 15px;
+}
+
+.presentation-button-mobile 
+{
+    position: relative;
+    right: 11px;
+    bottom: 43px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.container_footer {
+    padding-left: 505px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 11px;
 }
 	
 }
