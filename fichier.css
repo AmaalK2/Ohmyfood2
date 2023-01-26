@@ -6,7 +6,44 @@ max-width: 1440px;
 }
 
   /**header**/
+
+.loading
+{
+  background: white;
+  height: 100vh;
+  width: 100vw;
+  z-index: 100;
+  position: fixed;
+  animation:  flash 3s linear forwards;
+  display: flex;}
+
+  #spinner
+  {
+    margin: auto;
+    color: purple;
+    font-size: 4rem;
+  }
+
+
+@keyframes flash 
+{
+ 0% 
+ {
+  opacity: 1;
+  z-index: 100;
 }
+90%
+{
+  z-index: 100;
+}
+100% 
+{
+  opacity: 0;
+  z-index: -100;
+}
+}
+
+
 .header
 {
 	height: 65px;
@@ -200,7 +237,26 @@ display: flex;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+.restaurant-main1
+{
+	background-color: white;
+    justify-content: space-between;
+    margin: 10px;
+    height: auto;
+    width: 90%;
+    border-radius: 15px;
+    position: relative;
+    left: 11px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 .restaurant-main a 
+{
+	text-decoration: none;
+	color: black;
+}
+
+.restaurant-main1 a 
 {
 	text-decoration: none;
 	color: black;
@@ -208,6 +264,15 @@ display: flex;
 
 
 .restaurant-main img 
+{
+    border-radius: 20px 20px 0px 0px;
+    height: 180px;
+    width: 100%;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
+
+.restaurant-main1 img 
 {
     border-radius: 20px 20px 0px 0px;
     height: 180px;
@@ -623,6 +688,18 @@ header img
     box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
 }
 
+.restaurant-main1 {
+    background-color: white;
+    justify-content: space-between;
+    margin: 17px;
+    height: auto;
+    width: 44%;
+    border-radius: 15px;
+    position: relative;
+    left: 11px;
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
+}
+
 .new1 {
     
     left: 247px;
@@ -721,6 +798,14 @@ footer p {
     font-size: 15px;
 }
 
+.space-filter {
+    margin-left: 105px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 73%;
+}
+
 .filter a {
     position: relative;
     left: 28px;
@@ -734,7 +819,7 @@ footer p {
     margin: 17px;
     border-radius: 2rem;
     box-shadow: 0px 4px 15px rgb(0 0 0 / 15%);
-    width: 28%;
+    width: 30%;
     display: flex;
 }
 
@@ -755,6 +840,20 @@ footer p {
 	height: 220px;
 	width: 232px;
 	margin: 10px;
+}
+
+.restaurant-main1
+{
+	height: 220px;
+	width: 232px;
+	margin: 10px;
+	margin-left: 119px;
+}
+
+.restaurant-main1 img 
+{
+	height: 132px;
+	width: 100%;
 }
 
 .restaurant-main img 
@@ -809,6 +908,11 @@ footer p {
     bottom: 43px;
     text-align: center;
     margin-bottom: 0px;
+}
+
+.restaurants_section h2 {
+    padding-left: 125px;
+    padding-top: 65px;
 }
 
 .container_footer {
