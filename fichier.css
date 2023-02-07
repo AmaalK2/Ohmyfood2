@@ -2,67 +2,69 @@ body
 {
 font-family: 'Roboto', sans-serif;
 margin: 0;
-max-width: 1440px;
 }
+
+.wrapper
+{
+    padding-left: 9px;
+    padding-right: 5px;
+}
+
+.wrappeer
+{
+    max-width: 1440px;
+}
+
+
+.header
+{
+    display: flex;
+    justify-content: center;
+    height: 3rem;
+    margin: 15px;
+}
+
 
   /**header**/
 
 .loading
 {
   background: white;
-  height: 100vh;
-  width: 100vw;
-  z-index: 100;
-  position: fixed;
-  animation:  flash 3s linear forwards;
-  display: flex;}
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+    position: fixed;
+    animation:  flash 3s linear forwards;
+    display: flex;
+}
 
-  #spinner
-  {
-    margin: auto;
-    color: purple;
-    font-size: 4rem;
-  }
+.loading #spinner
+    {
+      margin: auto;
+      color: purple;
+      font-size: 4rem;
+    }
+
 
 
 @keyframes flash 
 {
- 0% 
- {
-  opacity: 1;
-  z-index: 100;
-}
-90%
-{
-  z-index: 100;
-}
-100% 
-{
-  opacity: 0;
-  z-index: -100;
-}
-}
-
-
-.header
-{
-	height: 65px;
+   0% 
+   {
+    opacity: 1;
+    z-index: 100;
+   }
+   90%
+   {
+    z-index: 100;
+   }
+   100% 
+   {
+    opacity: 0;
+    z-index: -100;
+   }
 }
 
-.header 
-{
-	height: 47px;
-}
-
-header img 
-{
-	height: 30px;
-    display: flex;
-    align-items: center;
-    padding-left: 107px;
-    position: relative;
-    top: 11px;
-}
 
   /**location**/
 
@@ -72,10 +74,9 @@ header img
 	height: 52px;
 }
 
-.location h2 
-{
-	padding-left: 22px;
-    font-weight: 100;
+.location h2 {
+    padding-left: 21px;
+    font-weight: 600;
     font-size: 18px;
 }
 
@@ -83,13 +84,13 @@ header img
 {
 	display: flex;
 	align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
 }
 
 .fa-location-dot 
 {
-	padding-left: 107px;
     font-size: 19px;
-
 }
 
 
@@ -110,6 +111,7 @@ header img
 .button-presentation h1
 {
 	margin-top: 0;
+    font-size: 38px;
 }
 
 .presentation-button /*texte englobant déplacer*/
@@ -263,16 +265,8 @@ display: flex;
 }
 
 
-.restaurant-main img 
-{
-    border-radius: 20px 20px 0px 0px;
-    height: 180px;
-    width: 100%;
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
-    object-fit: cover;
-}
 
-.restaurant-main1 img 
+.restaurant-main1-image img 
 {
     border-radius: 20px 20px 0px 0px;
     height: 180px;
@@ -285,7 +279,19 @@ display: flex;
 {
 	position: relative;
 	left: 17px;
+    margin-bottom: 23px;
 }
+
+.text-restaurants-section1
+{
+    position: relative;
+    left: 17px;
+    margin-bottom: 2px;
+}
+
+
+
+
 
 .text-restaurants-section p 
 {
@@ -300,38 +306,31 @@ display: flex;
 
 .h3-main-new
 {
-	margin-top: 0;
+	margin-top: 13px;
 }
 
-  .new1 
-  {
+  .new1 {
     background-color: #99e2d0;
-    color: #1b6150;
+    color: #008766;
     padding: 0.5rem;
     border-radius: 0.125rem;
-    position: relative;
-    bottom: 155px;
-    left: 281px;
-    z-index: 2;
+    position: absolute;
+    top: 0.5rem;
+    right: 1.5rem;
     display: inline;
-    width: 5rem;
-    margin-left: auto;
-    margin-right: 1rem;
+    width: 4rem;
 }
 
 .new2 {
     background-color: #99e2d0;
-    color: #1b6150;
+    color: #008766;
     padding: 0.5rem;
     border-radius: 0.125rem;
-    position: relative;
-    bottom: 155px;
-    left: 281px;
-    z-index: 2;
+    position: absolute;
+    top: 0.6rem;
+    right: 1rem;
     display: inline;
-    width: 5rem;
-    margin-left: auto;
-    margin-right: 1rem;
+    width: 4rem;
 }
 
     /*footer*/
@@ -340,7 +339,7 @@ footer
     background-color: #353535;
     color: white;
     padding-top: 34px;
-    padding-bottom: 18px;
+    padding-bottom: 23px;
 }
 
 .fa-utensils
@@ -377,25 +376,42 @@ footer p
 	color: white;
 }
 
+.hearts-title
+{
+	display: flex;
+    align-items: center;
+}
 /*mobile*/
 
 /*header*/
 
-.header-mobile
+.header-mobile 
 {
-	display: flex;
-	align-items: center;
-	height: 55px;
+    background: white;
+    z-index: 2;
+    font-family: "Shrikhand", cursive;
+    font-size: 2.5rem;
+    height: 2rem;
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    padding-top: 11px;
+}
+
+.fa-arrow-left
+{
+    margin-left: 2rem;
+    position: absolute;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 
 .header-mobile img 
 {
-	height: 30px;
-    display: flex;
-    align-items: center;
-    padding-left: 92px;
-    position: relative;
-    top: 1px;
+    margin: auto;
+    height: 4rem;
 }
 
 .height-mobile-image-main
@@ -405,30 +421,29 @@ footer p
 }
 
 
-.image_mobile
-{
-	width: 100%;
-	object-fit: cover;
-}
+.image_mobile {
+    width: 100%;
+    object-fit: cover;
+    height: 292px;
+    position: relative;
+    top: 25px;}
 
 .image_mobile_délice
 {
 	width: 100%;
     object-fit: cover;
-    height: 240px;
+    height: 376px;
+    position: relative;
+    top: 55px;
 }
 
-.fa-arrow-left
-{
-	font-size: 20px;
-    padding-left: 14px;
-}
+
 /*button*/ 
 
 .button-presentation-mobile button {
     height: 46px;
     border-radius: 30px;
-    width: 41%;
+    width: auto;
     background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
     color: white;
     border-color: transparent;
@@ -438,23 +453,27 @@ footer p
 .presentation-button-mobile
 {
 
-    position: relative;
-    right: 11px;
-    bottom: 8px;
     text-align: center;
-    margin-bottom: 64px;
+    margin-bottom: 0px;
+    padding-right: 16px;
 }
 
+.mobile-button
+{
+	display: flex;
+    justify-content: center;
+    padding-bottom: 17px;
+    padding-top: 15px;
+}
 
 
 /*menu mobile*/
 
 .menu 
-{    border-radius: 37px 37px 10px 10px;
+{    border-radius: 40px 40px 0px 0px;
     height: auto;
     position: relative;
-    bottom: 50px;
-    background-color: white;
+    background-color: #f7f7f7;
 }
 
 .bold 
@@ -469,31 +488,30 @@ footer p
 
 .menu h2 {
     text-align: center;
-    margin-bottom: 46px;
-    position: relative;
-    top: 9px;
-    right: 54px;
     font-size: 28px;
     font-family: 'Shrikhand', cursive;
+    padding-left: 22px;
 }
 
 .menu h3 
 {
-	position: relative;
-    left: 16px;
     font-weight: 200;
     text-transform: uppercase;
     font-size: 15px;
     width: 37px;
-    border-bottom: 3px solid #99E2D0;   
     padding-bottom: 6px;
-    margin-top: 55px;
-
+    border-bottom: 3px solid #99E2D0;
+    margin-left: 17px;
 }
 
-.container-menu-choice
-{
-	margin: 5px;
+
+
+.container-menu-choice {
+    margin: 5px;
+    max-width: 654px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .menu-choice
@@ -512,6 +530,50 @@ footer p
 	margin-bottom: 2px;
 }
 
+.menu 
+{
+ margin-top: 100px;
+ opacity: 0;
+ animation:  progressive 3s linear forwards;
+ padding-top: 12px
+}
+
+#entres
+ {
+  animation-delay: 1s;
+}
+
+&#plats
+{
+  animation-delay: 2s;
+}
+
+&#desserts
+{
+  animation-delay: 3s;
+}
+
+
+@keyframes progressive 
+{
+ 0% 
+ {
+  opacity: 0;
+  margin-top: 100px;
+}
+
+100% 
+{
+  opacity: 1;
+  margin-top: 0;
+}
+}
+
+.bloctitre
+{
+  margin-top: 3px;
+}
+
 .adjust_heart_1
   {
     justify-content: flex-start;
@@ -519,21 +581,26 @@ footer p
     padding-top: 16px;
     color: black;}
 
-  .adjust_heart_1 .heart2:hover
+  .adjust_heart_1 .coeur1:hover
     {
      opacity: 1;
  }
 
-   .heart1:hover 
+   .coeur1:hover 
    {
      opacity: 0;
    }
 
 
- .adjust_heart_1 .heart2 .heart1  i 
+ .adjust_heart_1 .coeur2 .coeur1  i 
    {
     transition: all 0.5s;
   }
+.fa-heart img 
+{
+    font-size: 45px;
+}
+
 
 
 .pad-top 
@@ -563,66 +630,315 @@ footer p
 }
 
 /*animation*/
-.hearts
+
+
+
+.hearts {
+    display: flex;
+    height: auto;
+    position: absolute;
+    right: 43px;
+    bottom: 53px;
+}
+
+.heartss {
+    display: flex;
+    position: absolute;
+    top: 43px;
+    right: 78px;
+}
+
+.hearts-title > .hearts
 {
-	display: flex;
-	padding-left: 403px;
+    padding-left: 61px;
+    padding-bottom: 33px;
 }
 
 
-
-.heart2
+.coeur1
 {
-	position: relative;
-	left: 32px;
-    background-color: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+    position: absolute;
+    font-size: 4px;
+}
+
+.coeur2
+{
+	position: absolute;
+	opacity: 0;
+}
+
+.coeur22
+{
+    position: absolute;
+    opacity: 0;
+}
+
+.coeur11
+{
+    position: absolute;
+    font-size: 4px;
 }
 
 
- .heart1:hover
-    {
+ .coeur1:hover
+   {
     opacity: 1;
    }
 
-    .heart2:hover
+    .hearts:hover .coeur2
    {
-     opacity: 0;
+     opacity: 1;
    }
 
-   .hearts i 
+   .hearts img 
    {
    	 transition: all 0.5s;
    }
 
    
 
-   .hearts i:hover
-   {
-   	color: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+   
+
+   .coeur11:hover
+    {
+    opacity: 1;
    }
 
+    .heartss:hover .coeur22
+   {
+     opacity: 1;
+   }
+
+   .heartsss img 
+   {
+     transition: all 0.5s;
+   }
+
+
+   
+
+   
+
+
+/**animations*/
+
+.menu-item {
+    width: 95%;
+    height: 51px;
+    border-radius: 10px;
+    position: relative;
+    padding-bottom: 45px;
+}
+
+.menu-item-visible {
+    position: absolute;
+    width: 100%;
+    padding: 10px;
+    transition: width .3s;
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px 15px;
+    box-shadow: 0px 4.01149px 15.0431px rgb(0 0 0 / 10%);
+}
+
+.menu-item:hover .menu-item-visible {
+    width: 80%;
+}
+
+.menu-item-hidden {
+    top: 0px;
+    left: 0px;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #99E2D0;
+    text-align: right;
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+.text-menuu
+{
+    margin-bottom: 5px;
+    margin-top: 12px;
+}
+
+.text-menu
+{
+    margin-top: 1px;
+}
+
+.bold
+{
+    margin-top: 0;
+    margin-bottom: 13px;
+    font-weight: 700;
+}
+
+.bold2
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.price 
+{
+    position: relative;
+    top: 15px;
+    right: 9px;
+    width: 15px;
+}
+
+.fa-circle-check
+{
+    color: white;
+}
+
+.menu-item:hover .menu-item-visible
+{
+    border-radius: 15px 0px 0px 15px;
+}
+
+.all_menu /**englobe toute la div*/ 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 6px;
+    overflow: hidden;
+}
+
+.choice_menu /*box shadow height hidden ect*/ 
+{
+    display: flex;
+    border: 1px solid #f2f2f2;
+    background-color: white;
+    border-radius: 16px;
+    height: 64px;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px lightgrey;
+    overflow: hidden;
+}
+
+     
+.choice_menu:hover .text-column
+      {
+        width: calc(80% - 5rem);
+        transition: all 0.5s;
+      }
+
+.choice_menu:hover .check-box
+      {
+        right: 0;
+        width: 5rem;
+        transition: all 0.5s;
+      }
+    
+
+.text_column /*partie ou il y a le texte*/ 
+{
+  width: 80%;
+  transition: all 0.5s;
+   overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding-left: 11px;}
+
+
+.text_column p 
+  {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+
+.price 
+{
+    display: flex;
+    width: 20%;
+    text-align: center;
+    align-items: flex-end;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+
+.price p 
+  {
+    margin: 0;
+  }
+
+
+
+.check-box
+{
+  display: flex;
+  width: 0%;
+  height: 100%;
+  position: relative;
+  right: -5rem;
+  background-color: #99E2D0;
+  border-radius: 3px 0px 3px 0px;
+  transition: all 0.5s;
+}
+
+.check-box i 
+  {
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-self: center;
+    justify-content: center;
+}
+  }
+
+  .check-box:hover
+  {
+    width: 20%;
+    transition: width .3s;
+  }
 
 /*tablette*/
 
 @media (min-width: 768px) and (max-width: 1024px)
 {
-header img 
-{
-	padding-left: 289px;
-}
 
-.header-mobile img {
-    height: 30px;
+    .heartss {
+    display: flex;
+    position: absolute;
+    top: 42px;
+    right: 273px;}
+
+.hearts-title
+{
     display: flex;
     align-items: center;
-    padding-left: 35%;
-    position: relative;
-    top: 1px;
+    padding-left: 0px;
 }
 
-.fa-location-dot 
+.heartss {
+    display: flex;
+    position: relative;
+    top: -12px;
+    left: 47px;}
+
+.menu h2 
 {
-    padding-left: 294px;
+    padding-left: 5px;
+}
+
+.price 
+{
+    position: relative;
+    left: 67px;
 }
 
 .button-presentation button 
@@ -702,18 +1018,30 @@ header img
 
 .new1 {
     
-    left: 247px;
+    right: 15px;
 }
-.new2
-{
-	position: relative;
-	left: 249px;
-}
+
 
 .text-restaurants-section p {
     margin-top: 4px;
     padding-bottom: 0px;
+    margin-bottom: 0;
 }
+
+.text-restaurants-section
+{
+    position: relative;
+    left: 17px;
+    margin-bottom: 21px;
+}
+
+.text-restaurants-section1
+{
+    position: relative;
+    left: 17px;
+     margin-bottom: 5px;
+}
+
 
 footer p {
     margin-top: 0px;
@@ -728,29 +1056,21 @@ footer p {
 
 .menu {
     border-radius: 37px 37px 10px 10px;
-    height: auto;
-    position: relative;
-    background-color: #f2f2f2;
     padding: 3px;
-    margin-left: 10%;
-    margin-right: 10%;
-    top: 43px;
-    padding-bottom: 103px;
-    margin-top: -90px;
-    padding-right: 145px;
-    padding-left: 125px;
-
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 901px;
 }
 
-.image_mobile
-{
-	height: 267px;
-}
+.image_mobile {
+    height: 385px;
+    position: relative;
+    top: 53px;}
 
 .presentation-button-mobile {
-    position: relative;
-    right: 11px;
-    bottom: 50px;
     text-align: center;
     margin-bottom: 0px; 
 }
@@ -764,30 +1084,26 @@ footer p {
     display: flex;
     flex-direction: row;
 }
+
+footer
+{
+    background-color: #353535;
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 23px;
+    display: flex;
+    justify-content: flex-end;
+}
 }
 
 @media (min-width: 1025px) and (max-width: 3500px)
 {
-
-.header-mobile img 
-{
-    height: 30px;
+.heartss {
     display: flex;
-    align-items: center;
-    padding-left: 38%;
-    position: relative;
-    top: 1px;
-}
-		header img 
-{
-	padding-left: 418px;
-}
-
-.fa-location-dot 
-{
-    padding-left: 421px;
-}
-
+    position: absolute;
+    top: 42px;
+    right: 273px;}
+		
 .button-presentation button {
     height: 48px;
     border-radius: 30px;
@@ -796,6 +1112,7 @@ footer p {
     color: white;
     border-color: transparent;
     font-size: 15px;
+    margin-top: 8px;
 }
 
 .space-filter {
@@ -803,7 +1120,13 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 73%;
+    width: 83%;
+}
+
+.price
+{
+    position: relative;
+    left: 67px;
 }
 
 .filter a {
@@ -823,10 +1146,18 @@ footer p {
     display: flex;
 }
 
+.filtre h2 
+{
+	position: relative;
+    top: 16px;
+    padding-left: 124px;
+}
+
 .desk-main-restaurants
 {
 	display: flex;
 	flex-direction: row;
+	overflow: scroll;
 }
 
 .tab-main-restaurants
@@ -836,46 +1167,42 @@ footer p {
 }
 
 .restaurant-main
-{
-	height: 220px;
-	width: 232px;
-	margin: 10px;
+{  
+    height: 220px;
+    width: 341px;
+    margin: 10px;
 }
 
 .restaurant-main1
 {
 	height: 220px;
-	width: 232px;
+	width: 341px;
 	margin: 10px;
 	margin-left: 119px;
 }
 
 .restaurant-main1 img 
 {
-	height: 132px;
+	height: 152px;
 	width: 100%;
 }
 
-.restaurant-main img 
-{
-	height: 132px;
-	width: 100%;
+.restaurant-main img {
+    height: 152px;
+    width: 100%;
 }
 
-.menu {
+  .menu {
     border-radius: 37px 37px 10px 10px;
-    height: auto;
-    position: relative;
-    background-color: #f2f2f2;
-    padding: 3px;
-    margin-left: 12%;
-    margin-right: 12%;
-    top: 43px;
-    padding-bottom: 103px;
-    margin-top: -90px;
-    padding-right: 145px;
-    padding-left: 125px;
+    background-color: #f7f7f7;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 901px;
 }
+
 
 .menu-choice
 {
@@ -888,24 +1215,24 @@ footer p {
 }
 
 .image_mobile {
-    height: 267px;
+    height: 385px;
+    position: relative;
+    top: 53px;
 }
 
 .button-presentation-mobile button {
     height: 46px;
     border-radius: 30px;
-    width: 15%;
+    width: 100%;
     background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
     color: white;
     border-color: transparent;
     font-size: 15px;
 }
 
+
 .presentation-button-mobile 
 {
-    position: relative;
-    right: 11px;
-    bottom: 43px;
     text-align: center;
     margin-bottom: 0px;
 }
@@ -916,15 +1243,32 @@ footer p {
 }
 
 .container_footer {
-    padding-left: 505px;
     display: flex;
     flex-direction: row;
+}
+
+footer
+{
+    background-color: #353535;
+    color: white;
+    padding-top: 34px;
+    padding-bottom: 23px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 footer p {
     margin-top: 0px;
     margin-bottom: 5px;
     padding: 11px;
+}
+
+.container_footer
+{
+    order: 5;
+    display: flex;
+    padding-right: 67px;
+
 }
 	
 }
