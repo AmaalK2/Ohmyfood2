@@ -36,7 +36,7 @@ margin: 0;
     position: fixed;
     animation:  flash 3s linear forwards;
     display: flex;
-}
+ }
 
 .loading #spinner
     {
