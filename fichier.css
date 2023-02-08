@@ -441,6 +441,9 @@ footer p
 /*button*/ 
 
 .button-presentation-mobile button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 46px;
     border-radius: 30px;
     width: auto;
@@ -462,8 +465,9 @@ footer p
 {
 	display: flex;
     justify-content: center;
-    padding-bottom: 17px;
+    padding-bottom: 2px;
     padding-top: 15px;
+    margin-bottom: 32px;
 }
 
 
@@ -770,7 +774,7 @@ footer p
     margin-top: 1px;
 }
 
-.bold
+.bold                   
 {
     margin-top: 0;
     margin-bottom: 13px;
@@ -783,6 +787,7 @@ footer p
     margin-bottom: 0;
 }
 
+                           
 .price 
 {
     position: relative;
@@ -814,13 +819,13 @@ footer p
 .choice_menu /*box shadow height hidden ect*/ 
 {
     display: flex;
-    border: 1px solid #f2f2f2;
-    background-color: white;
     border-radius: 16px;
     height: 64px;
     justify-content: space-between;
-    box-shadow: 2px 2px 2px lightgrey;
     overflow: hidden;
+    background: #FFFFFF;
+    box-shadow: 0px 4.01149px 15.0431px rgba(0, 0, 0, 0.1);
+    border-radius: 15.0431px;
 }
 
      
@@ -910,6 +915,13 @@ footer p
 
 @media (min-width: 768px) and (max-width: 1024px)
 {
+    .container-menu-choice {
+    margin: 5px;
+    max-width: 509px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
     .heartss {
     display: flex;
@@ -938,7 +950,7 @@ footer p
 .price 
 {
     position: relative;
-    left: 67px;
+    left: 42px;
 }
 
 .button-presentation button 
@@ -1062,7 +1074,7 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 901px;
+    max-width: 747px;
 }
 
 .image_mobile {
