@@ -38,7 +38,7 @@ margin: 0;
     display: flex;
  }
 
-.loading #spinner
+#spinner
     {
       margin: auto;
       color: purple;
@@ -70,8 +70,8 @@ margin: 0;
 
 .location 
 {
-	background-color: #eaeaea;
-	height: 52px;
+    background-color: #eaeaea;
+    height: 52px;
 }
 
 .location h2 {
@@ -82,8 +82,8 @@ margin: 0;
 
 .bloc-location
 {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
     gap: 0.5rem;
 }
@@ -98,19 +98,20 @@ margin: 0;
 
 .button-presentation /*section*/
 {
-	height: 423px;
-	background: whitesmoke;
+    height: 423px;
+    background: whitesmoke;
 }
+
 
 .button-presentation p 
 {
-	font-size: 18px;
-	color: grey;
+    font-size: 18px;
+    color: grey;
 }
 
 .button-presentation h1
 {
-	margin-top: 0;
+    margin-top: 0;
     font-size: 38px;
 }
 
@@ -125,7 +126,7 @@ margin: 0;
 
 .button-presentation button 
 {
-	height: 46px;
+    height: 46px;
     border-radius: 30px;
     width: 64%;
     background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
@@ -134,17 +135,23 @@ margin: 0;
     font-size: 15px;
 }
 
+.button-presentation button:hover
+{
+      background: linear-gradient(162deg, #9356dc 0%, #ff79da 100%);
+       transform: scale(1.02);
+}
+
 .filtre h2
 {
-	position: relative;
+    position: relative;
     top: 16px;
     padding-left: 20px;
 }
 
 .filter
 {
-	display: flex;
-	height: 87px;
+    display: flex;
+    height: 87px;
     margin: 17px;
     border-radius: 2rem;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
@@ -193,7 +200,7 @@ display: flex;
 
 .space-filter
 {
-	margin: 4px;
+    margin: 4px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -201,9 +208,9 @@ display: flex;
 
 .fa-mobile-screen, .fa-list-ul, .fa-store
 {
-	position: relative;
-	top: 35px;
-	left: 17px;
+    position: relative;
+    top: 35px;
+    left: 17px;
 }
 
 
@@ -219,7 +226,7 @@ display: flex;
 
 .restaurants_section h2
 {
-	padding-left: 21px;
+    padding-left: 21px;
     padding-top: 65px;
     position: relative;
 }
@@ -228,7 +235,7 @@ display: flex;
 
 .restaurant-main 
 {
-	background-color: white;
+    background-color: white;
     justify-content: space-between;
     margin: 10px;
     height: auto;
@@ -241,7 +248,7 @@ display: flex;
 
 .restaurant-main1
 {
-	background-color: white;
+    background-color: white;
     justify-content: space-between;
     margin: 10px;
     height: auto;
@@ -254,14 +261,14 @@ display: flex;
 
 .restaurant-main a 
 {
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 
 .restaurant-main1 a 
 {
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -277,8 +284,8 @@ display: flex;
 
 .text-restaurants-section
 {
-	position: relative;
-	left: 17px;
+    position: relative;
+    left: 17px;
     margin-bottom: 23px;
 }
 
@@ -295,18 +302,18 @@ display: flex;
 
 .text-restaurants-section p 
 {
-	margin-top: 4px;
-	padding-bottom: 17px;
+    margin-top: 4px;
+    padding-bottom: 17px;
 }
 
 .text-restaurants-section h3
 {
-	margin-bottom: 4px;
+    margin-bottom: 4px;
 }
 
 .h3-main-new
 {
-	margin-top: 13px;
+    margin-top: 13px;
 }
 
   .new1 {
@@ -344,41 +351,41 @@ footer
 
 .fa-utensils
 {
-	padding-right: 11px;
+    padding-right: 11px;
 }
 
 .fa-handshake-angle
 {
-	padding-right: 5px;
+    padding-right: 5px;
 }
 
 footer .logo 
 {
-	  font-family: 'Shrikhand', cursive;
-	  font-weight: 600;
+      font-family: 'Shrikhand', cursive;
+      font-weight: 600;
 
 }
 
 footer p 
 {
-	margin-top: 0px;
-	margin-bottom: 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
 }
 
 .container_footer
 {
-	padding-left: 20px;
+    padding-left: 20px;
 }
 
 .container_footer a 
 {
-	text-decoration: none;
-	color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .hearts-title
 {
-	display: flex;
+    display: flex;
     align-items: center;
 }
 /*mobile*/
@@ -430,7 +437,7 @@ footer p
 
 .image_mobile_délice
 {
-	width: 100%;
+    width: 100%;
     object-fit: cover;
     height: 376px;
     position: relative;
@@ -463,7 +470,7 @@ footer p
 
 .mobile-button
 {
-	display: flex;
+    display: flex;
     justify-content: center;
     padding-bottom: 2px;
     padding-top: 15px;
@@ -482,12 +489,12 @@ footer p
 
 .bold 
 {
-	font-weight: 500;
+    font-weight: 500;
 }
 
 .bold2
 {
-	font-weight: 300;
+    font-weight: 300;
 }
 
 .menu h2 {
@@ -520,9 +527,9 @@ footer p
 
 .menu-choice
 {
-	border: 1px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
-	width: 94%;
+    width: 94%;
     margin-bottom: 28px;
     padding: 10px;
     border-radius: 15.0431px;
@@ -530,8 +537,8 @@ footer p
 
 .menu-choice p 
 {
-	margin-top: 2px;
-	margin-bottom: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .menu 
@@ -542,19 +549,26 @@ footer p
  padding-top: 12px
 }
 
-#entres
+#menu-entrees
  {
-  animation-delay: 1s;
-}
-
-&#plats
-{
   animation-delay: 2s;
+  opacity: 0;
+  animation:  progressive 3s linear forwards;
+
 }
 
-&#desserts
+#menu-plats
 {
   animation-delay: 3s;
+   opacity: 0;
+  animation:  progressive 3s linear forwards;
+}
+
+#menu-desserts
+{
+  animation-delay: 5s;
+   opacity: 0;
+  animation:  progressive 3s linear forwards;
 }
 
 
@@ -585,15 +599,7 @@ footer p
     padding-top: 16px;
     color: black;}
 
-  .adjust_heart_1 .coeur1:hover
-    {
-     opacity: 1;
- }
-
-   .coeur1:hover 
-   {
-     opacity: 0;
-   }
+  
 
 
  .adjust_heart_1 .coeur2 .coeur1  i 
@@ -621,12 +627,12 @@ footer p
 
   .deflex
   {
-  	display: flex;
+    display: flex;
   }
 
   .footer_description-mobile 
   {
-  	background-color: #353535;
+    background-color: #353535;
     color: white;
     padding-top: 34px;
     padding-bottom: 18px;
@@ -667,8 +673,8 @@ footer p
 
 .coeur2
 {
-	position: absolute;
-	opacity: 0;
+    position: absolute;
+    opacity: 0;
 }
 
 .coeur22
@@ -696,7 +702,7 @@ footer p
 
    .hearts img 
    {
-   	 transition: all 0.5s;
+     transition: all 0.5s;
    }
 
    
@@ -903,7 +909,7 @@ footer p
     align-self: center;
     justify-content: center;
 }
-  }
+  
 
   .check-box:hover
   {
@@ -991,8 +997,8 @@ footer p
 
 .tab-main-restaurants 
 {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .menu-choice {
@@ -1115,7 +1121,7 @@ footer
     position: absolute;
     top: 42px;
     right: 273px;}
-		
+        
 .button-presentation button {
     height: 48px;
     border-radius: 30px;
@@ -1160,22 +1166,22 @@ footer
 
 .filtre h2 
 {
-	position: relative;
+    position: relative;
     top: 16px;
     padding-left: 124px;
 }
 
 .desk-main-restaurants
 {
-	display: flex;
-	flex-direction: row;
-	overflow: scroll;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
 }
 
 .tab-main-restaurants
 {
-	display: flex;
-	flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .restaurant-main
@@ -1187,22 +1193,19 @@ footer
 
 .restaurant-main1
 {
-	height: 220px;
-	width: 341px;
-	margin: 10px;
-	margin-left: 119px;
+    height: 220px;
+    width: 341px;
+    margin: 10px;
+    margin-left: 119px;
 }
 
-.restaurant-main1 img 
+.restaurant-main1-image img 
 {
-	height: 152px;
-	width: 100%;
-}
-
-.restaurant-main img {
     height: 152px;
     width: 100%;
 }
+
+
 
   .menu {
     border-radius: 37px 37px 10px 10px;
@@ -1218,9 +1221,9 @@ footer
 
 .menu-choice
 {
-	border: 1px solid #f2f2f2;
+    border: 1px solid #f2f2f2;
     box-shadow: 0px 4px 15px rgb(0 0 0 / 10%);
-	width: 94%;
+    width: 94%;
     margin-bottom: 28px;
     padding: 10px;
     border-radius: 15.0431px;
@@ -1282,5 +1285,5 @@ footer p {
     padding-right: 67px;
 
 }
-	
+    
 }
