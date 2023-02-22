@@ -457,10 +457,18 @@ footer p
     height: 46px;
     border-radius: 30px;
     width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
     color: white;
     border-color: transparent;
     font-size: 15px;
+}
+
+
+.button-presentation-mobile button:hover {
+    background: linear-gradient(162deg, #9356dc 0%, #ff79da 100%);
+    transform: scale(1.02);
 }
 
 .presentation-button-mobile
@@ -1242,7 +1250,9 @@ footer
 .button-presentation-mobile button {
     height: 46px;
     border-radius: 30px;
-    width: 100%;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
     color: white;
     border-color: transparent;
