@@ -406,19 +406,20 @@ footer p
     padding-top: 11px;
 }
 
-.fa-arrow-left
-{
-    margin-left: 2rem;
+.fa-arrow-left {
+    margin-left: 1rem;
     position: absolute;
     cursor: pointer;
     display: flex;
     align-items: center;
+    margin-top: -11px;
 }
 
 .header-mobile img 
 {
     margin: auto;
     height: 3rem;
+    margin-top: 9px;
 }
 
 .height-mobile-image-main
