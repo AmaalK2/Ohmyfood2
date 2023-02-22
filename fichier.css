@@ -128,7 +128,9 @@ margin: 0;
 {
     height: 46px;
     border-radius: 30px;
-    width: 64%;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
     background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
     color: white;
     border-color: transparent;
@@ -962,7 +964,9 @@ footer p
 
 .button-presentation button 
 {
-    width: 30%;
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .filter {
@@ -1126,7 +1130,6 @@ footer
 .button-presentation button {
     height: 48px;
     border-radius: 30px;
-    width: 21%;
     background: linear-gradient(162deg, #ff79da 0%, #9356dc 100%);
     color: white;
     border-color: transparent;
